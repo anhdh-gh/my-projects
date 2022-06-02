@@ -1,0 +1,35 @@
+div.button {
+    display: inline-block;
+}
+
+div.button-dark {
+    background-color: black;
+    color: white;
+    transition: all 0.5s
+}
+
+div.button-dark:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+
+div.button-light {
+    background-color: white;
+    color: black;
+    transition: all 0.5s
+}
+
+div.button-light:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+
+div.button-dark:active,
+div.button-light:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import "react-toastify/dist/ReactToastify.css"
+import './assets/css/App.css'
+import { Toast, Loader, Footer, Header } from './components'
+import { useState, useEffect } from 'react'
+import AppNavigator from './navigation/AppNavigator'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    }, 1000)
+  }, [])
+
+  return loading ? <Loader /> : <div className="App">
+    <Toast />
+    <AppNavigator>
+      <Header />
+    </AppNavigator>
+    <Footer />
+  </div>
 }
 
-export default App;
+export default App
