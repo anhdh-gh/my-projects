@@ -21,10 +21,6 @@ const Welcome = (props) => {
                             <h3 className="m-0">Web</h3>
                             <h3 className="m-0">Developer</h3>
                         </div>
-
-                        <div className='p-2 py-3 bg-white d-flex justify-content-center'>
-                            <Icon />
-                        </div>
                     </div>
                 </Col>
 
