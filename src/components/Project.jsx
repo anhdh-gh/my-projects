@@ -22,7 +22,7 @@ const Project = (props) => {
                         </div>
 
                         <div className='d-flex flex-wrap ps-4 justify-content-around align-items-center mt-3'>
-                            {project?.languages.map((language, index) => <h4 key={`${project.id}-${index}`}><span className="badge bg-light text-dark">
+                            {project?.languages.map((language, index) => <h4 key={`${project.id}-${index}`}><span className={`badge bg-light text-dark`}>
                                 <i className={`${
                                     language === 'HTML' ? 'fa-brands fa-html5 text-warning'
                                     : language === 'CSS' ? 'fa-brands fa-css3-alt text-primary'

@@ -81,21 +81,21 @@ const Contact = (props) => {
                         <div className="rounded-3 zoom-in d-flex justify-content-between flex-column bg-white h-100 py-5 px-5" style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
                             <h1 style={{ fontSize: "90px" }} className="fw-bold mb-4">Contact!</h1>
 
-                            <form id="contact-form" onSubmit={sendEmail}>
+                            <form autoComplete="off" id="contact-form" onSubmit={sendEmail}>
 
                                 <div className="mb-3">
                                     <label htmlFor="from_name" className="form-label fw-bold">From name:</label>
-                                    <input type="text" className="form-control" id="from_name" name="from_name" placeholder="Name..." />
+                                    <input autoComplete="off" type="text" className="form-control" id="from_name" name="from_name" placeholder="Name..." />
                                 </div>
 
                                 <div className="mb-3">
                                     <label htmlFor="from_email" className="form-label fw-bold">From email:</label>
-                                    <input type="email" className="form-control" id="from_email" name="from_email" placeholder="name@example.com" required/>
+                                    <input autoComplete="off" type="email" className="form-control" id="from_email" name="from_email" placeholder="name@example.com" required/>
                                 </div>
 
                                 <div className="mb-3">
                                     <label htmlFor="email_subject" className="form-label fw-bold">Subject:</label>
-                                    <input type="text" className="form-control" id="email_subject" name="email_subject" placeholder="Subject..." required/>
+                                    <input autoComplete="off" type="text" className="form-control" id="email_subject" name="email_subject" placeholder="Subject..." required/>
                                 </div>
 
                                 <div className="mb-4">
@@ -104,7 +104,7 @@ const Contact = (props) => {
                                 </div>
 
                                 <div className='d-flex justify-content-between'>
-                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download>CV</a>
+                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ANH DO_WEB DEVELOPER.pdf'>CV</a>
                                     <button disabled={sending} type='submit' style={{ cursor: "pointer" }} className='button button-dark py-1 px-3 px-sm-4 rounded-3 border border-dark'>SEND</button>
                                 </div>
                             </form>
@@ -116,21 +116,21 @@ const Contact = (props) => {
                             
                             <h1 style={{ fontSize: "45px" }} className="fw-bold m-md-0 mb-4 text-center">Contact!</h1>                         
 
-                            <form id="contact-form" onSubmit={sendEmail}>
+                            <form autoComplete="off" id="contact-form" onSubmit={sendEmail}>
 
                                 <div className="mb-3">
                                     <label htmlFor="from_name" className="form-label fw-bold">From name:</label>
-                                    <input type="text" className="form-control" id="from_name" name="from_name" placeholder="Name..." />
+                                    <input autoComplete="off" type="text" className="form-control" id="from_name" name="from_name" placeholder="Name..." />
                                 </div>
 
                                 <div className="mb-3">
                                     <label htmlFor="from_email" className="form-label fw-bold">From email:</label>
-                                    <input type="email" className="form-control" id="from_email" name="from_email" placeholder="name@example.com" required/>
+                                    <input autoComplete="off" type="email" className="form-control" id="from_email" name="from_email" placeholder="name@example.com" required/>
                                 </div>
 
                                 <div className="mb-3">
                                     <label htmlFor="email_subject" className="form-label fw-bold">Subject:</label>
-                                    <input type="text" className="form-control" id="email_subject" name="email_subject" placeholder="Subject..." required/>
+                                    <input autoComplete="off" type="text" className="form-control" id="email_subject" name="email_subject" placeholder="Subject..." required/>
                                 </div>
 
                                 <div className="mb-4">
@@ -139,7 +139,7 @@ const Contact = (props) => {
                                 </div>
 
                                 <div className='d-flex justify-content-between'>
-                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download>CV</a>
+                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ANH DO_WEB DEVELOPER.pdf'>CV</a>
                                     <button disabled={sending} type='submit' style={{ cursor: "pointer" }} className='button button-dark py-1 px-3 px-sm-4 rounded-3 border border-dark'>SEND</button>
                                 </div>
                             </form>

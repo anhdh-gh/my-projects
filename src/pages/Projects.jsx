@@ -1,4 +1,5 @@
-import { Project } from '../components'
+import { Project, SearchBox } from '../components'
+import { useState } from "react"
 
 const data = [
     {
@@ -60,7 +61,10 @@ const data = [
 
 const Projects = (props) => {
 
-    return <div style={{ backgroundColor: "#f1f5f8" }} className="py-5">
+    const [search, setSearch] = useState('')
+    const dataShow = search.trim() === '' ? data : data.filter(item => item.languages.map(language => language.trim().toLowerCase()).some(language => search.trim().toLowerCase().includes(language)))
+
+    return <div style={{ backgroundColor: "#f1f5f8", minHeight: '100vh'}} className="py-5">
 
         <div className="container-fluid">
             <div className="d-flex align-items-center flex-column mb-5">
@@ -73,10 +77,20 @@ const Projects = (props) => {
                 <p className="fw-bold fs-6">Updating......</p>
             </div>
 
+            <div className='d-flex justify-content-center'>
+                <SearchBox
+                    inputColor = "#f1f5f8"
+                    className="my-3"
+                    placeholder="Search technical"
+                    value={search}
+                    onChange={e => setSearch(e.target.value)}
+                />
+            </div>
+
             <div className='mb-5'>
-                {data?.map((project, index) =>
+                {dataShow?.map((project, index) =>
                     <Project className="mt-5" key={project.id} project={project} >
-                        {   index !== data.length - 1 && 
+                        {   index !== dataShow.length - 1 && 
                             <div className="d-flex justify-content-center mt-5 mt-md-0 d-md-none">
                                 <div className="border-bottom border-2 border-danger w-100" style={{ height: "1px" }}></div>
                             </div>    
