@@ -7,7 +7,7 @@ const Header = (props) => {
     const { pathname } = useLocation()
     const navigate = useNavigate()
 
-    return <Navbar expand="md" style={{background: "linear-gradient(315deg,#fff,#d7e1ec)"}} className="border-bottom border-4 border-danger">
+    return <Navbar expand="md" style={{background: "linear-gradient(315deg,#fff,#d7e1ec)"}} className="border-bottom border-3 border-danger">
         <Container fluid>
             <Navbar.Brand style={{cursor: 'pointer'}} onClick={() => navigate(ROUTE_PATH.WELCOME)}>
                 <div className='d-flex'>
