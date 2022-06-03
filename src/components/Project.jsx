@@ -9,7 +9,7 @@ const Project = (props) => {
             <div className="row">
                 <div className="col-md-6">
 
-                    <div className='h-100 bg-white py-5 d-flex flex-column justify-content-between pe-4' style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
+                    <div className='zoom-in rounded-3 h-100 bg-white py-5 d-flex flex-column justify-content-between pe-4' style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
                         <div className='ps-4 border-dark border-start border-5'>
                             <div className='fs-4 fw-bold'>{project.title}</div>
                             <div>{ReactHtmlParser(project.subTitle)}</div>
@@ -52,7 +52,7 @@ const Project = (props) => {
                 </div>
 
                 <div className="col-md-6 mt-md-0 mt-3">
-                    <div className="overflow-hidden w-100 h-100" style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", minHeight: "300px"}}>
+                    <div className="zoom-in rounded-3 overflow-hidden w-100 h-100" style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", minHeight: "300px"}}>
                         <iframe src={project.viewDemo} name={project.title} title={project.title} className="w-100 h-100"/>
                     </div>
                 </div>
