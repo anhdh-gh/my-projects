@@ -104,7 +104,7 @@ const Contact = (props) => {
                                 </div>
 
                                 <div className='d-flex justify-content-between'>
-                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ANH DO_WEB DEVELOPER.pdf'>CV</a>
+                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ANH DO_WEB DEVELOPER.pdf' target="_blank" rel="noreferrer">CV</a>
                                     <button disabled={sending} type='submit' style={{ cursor: "pointer" }} className='button button-dark py-1 px-3 px-sm-4 rounded-3 border border-dark'>SEND</button>
                                 </div>
                             </form>
@@ -139,7 +139,7 @@ const Contact = (props) => {
                                 </div>
 
                                 <div className='d-flex justify-content-between'>
-                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ANH DO_WEB DEVELOPER.pdf'>CV</a>
+                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ANH DO_WEB DEVELOPER.pdf' target="_blank" rel="noreferrer">CV</a>
                                     <button disabled={sending} type='submit' style={{ cursor: "pointer" }} className='button button-dark py-1 px-3 px-sm-4 rounded-3 border border-dark'>SEND</button>
                                 </div>
                             </form>
