@@ -2,6 +2,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 import { Icon } from '../components'
 import { useLocation, useNavigate } from "react-router"
 import { ROUTE_PATH } from '../constants'
+import CV from '../assets/file/CV_ANH-DO_WEB DEVELOPER.pdf'
 
 const Header = (props) => {
     const { pathname } = useLocation()
@@ -38,9 +39,9 @@ const Header = (props) => {
             <Navbar.Collapse id="navbarScroll" className="text-uppercase">
                 <Nav className="mx-auto text-center" navbarScroll>
                     <Nav.Link as="span" style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTE_PATH.WELCOME)} className={`px-sm-4 fw-bold ${pathname === ROUTE_PATH.WELCOME ? 'active-success' : ''}`}>Welcome!</Nav.Link>
-                    <Nav.Link as="span" style={{ cursor: 'pointer' }} className="px-sm-4 fw-bold">About</Nav.Link>
                     <Nav.Link as="span" style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTE_PATH.PROJECTS)} className={`px-sm-4 fw-bold ${pathname === ROUTE_PATH.PROJECTS ? 'active-success' : ''}`}>Projects</Nav.Link>
                     <Nav.Link as="span" style={{ cursor: 'pointer' }} onClick={() => navigate(ROUTE_PATH.CONTACT)} className={`px-sm-4 fw-bold ${pathname === ROUTE_PATH.CONTACT ? 'active-success' : ''}`}>Contact</Nav.Link>
+                    <Nav.Link href={CV} target="_blank" rel="noreferrer" className="px-sm-4 fw-bold">MY CV</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
