@@ -3,6 +3,7 @@ import Loader from './Loader'
 import Footer from './Footer'
 import Header from './Header'
 import Icon from './Icon'
+import Project from './Project'
 
 export {
     Toast,
@@ -10,4 +11,5 @@ export {
     Footer,
     Header,
     Icon,
+    Project,
 }

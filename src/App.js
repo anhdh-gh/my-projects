@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false)
-    }, 1000)
+    }, 1)
   }, [])
 
   return loading ? <Loader /> : <div className="App">

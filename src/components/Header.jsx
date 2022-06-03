@@ -27,7 +27,7 @@ const Header = (props) => {
                 <Nav className="ms-auto text-center" navbarScroll>
                     <Nav.Link as="span" style={{cursor: 'pointer'}} onClick={() => navigate(ROUTE_PATH.WELCOME)} className={`${pathname === ROUTE_PATH.WELCOME ? 'text-success fw-bold' : ''}`}>Welcome!</Nav.Link>
                     <Nav.Link as="span" style={{cursor: 'pointer'}} className="">About</Nav.Link>
-                    <Nav.Link as="span" style={{cursor: 'pointer'}} className="">Projects</Nav.Link>
+                    <Nav.Link as="span" style={{cursor: 'pointer'}} onClick={() => navigate(ROUTE_PATH.PROJECTS)} className={`${pathname === ROUTE_PATH.PROJECTS ? 'text-success fw-bold' : ''}`}>Projects</Nav.Link>
                     <Nav.Link as="span" style={{cursor: 'pointer'}} className="">Contact</Nav.Link>
                 </Nav>
 

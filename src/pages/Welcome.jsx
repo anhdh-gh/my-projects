@@ -1,8 +1,12 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import avata from '../assets/img/avata-3.jpg'
-import { Icon } from '../components'
+import avata from '../assets/img/avata.jpg'
+import { useNavigate } from "react-router"
+import { ROUTE_PATH } from '../constants'
 
 const Welcome = (props) => {
+
+    const navigate = useNavigate()
+
     return <div style={{ backgroundColor: "#f1f5f8" }} className="py-5">
         <Container fluid="lg">
             <Row>
@@ -27,41 +31,41 @@ const Welcome = (props) => {
                 <Col md={8} sm={7} className="mt-sm-0 mt-5">
                     <div className='d-none d-md-block h-100'>
                         <div className="d-flex justify-content-between flex-column bg-white h-100 py-5 px-5" style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
-                            <h1 style={{ fontSize: "90px" }} className="fw-bold m-0">Welcome!</h1>
-                            <p className="fs-5 m-0">This is the information page about <span className="fst-italic fw-bold">Hùng Anh</span>, glad you visited!</p>
+                            <h1 style={{ fontSize: "90px" }} className="fw-bold mb-4 m-lg-0">Welcome!</h1>
+                            <p className="fs-5 mb-4 m-lg-0">This is the information page about <span className="fst-italic fw-bold">Hùng Anh</span>, glad you visited!</p>
 
-                            <div className=''>
+                            <div className='mb-4 m-lg-0'>
                                 <div style={{ cursor: "pointer" }} className='button button-dark  py-1 px-4 rounded-pill border border-dark me-4'>ABOUT</div>
-                                <div style={{ cursor: "pointer" }} className='button button-light py-1 px-4 rounded-pill border border-dark'>PROJECTS</div>
+                                <div style={{ cursor: "pointer" }} className='button button-light py-1 px-4 rounded-pill border border-dark' onClick={() => navigate(ROUTE_PATH.PROJECTS)}>PROJECTS</div>
                             </div>
 
-                            <p className="fw-normal fs-5 fst-italic m-0">This Website is exactly an Advertisement!</p>
+                            <p className="fw-normal fs-5 fst-italic mb-4 m-lg-0">This Website is exactly an Advertisement!</p>
 
-                            <p className="m-0 fs-5">
+                            <p className="mb-4 m-lg-0 fs-5">
                                 You know, Ads are usually easy to 'Skip' but if you watch them all, maybe you will find a satisfactory product. Hope you will find what you are looking for here.
                             </p>
 
-                            <p className="m-0 fs-5">Have a nice day!</p>
+                            <p className="mb-4 m-lg-0 fs-5">Have a nice day!</p>
                         </div>
                     </div>
 
                     <div className='d-md-none d-block h-100'>
                         <div className="d-flex justify-content-between flex-column bg-white h-100 py-4 px-4" style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
-                            <h1 style={{ fontSize: "45px" }} className="fw-bold m-sm-0 mb-4">Welcome!</h1>
-                            <p className="fs-5 m-sm-0 mb-4">This is the information page about <span className="fst-italic fw-bold">Hùng Anh</span>, glad you visited!</p>
+                            <h1 style={{ fontSize: "45px" }} className="fw-bold m-md-0 mb-4">Welcome!</h1>
+                            <p className="fs-5 m-md-0 mb-4">This is the information page about <span className="fst-italic fw-bold">Hùng Anh</span>, glad you visited!</p>
 
-                            <div className='d-flex d-sm-block justify-content-between m-sm-0 mb-4'>
+                            <div className='d-flex d-sm-block justify-content-between m-md-0 mb-4'>
                                 <div style={{ cursor: "pointer" }} className='button button-dark  py-1 px-3 px-sm-4 rounded-pill border border-dark me-4'>ABOUT</div>
-                                <div style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-pill border border-dark'>PROJECTS</div>
+                                <div style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-pill border border-dark' onClick={() => navigate(ROUTE_PATH.PROJECTS)}>PROJECTS</div>
                             </div>
 
-                            <p className="fw-normal fs-5 fst-italic m-sm-0 mb-4">This Website is exactly an Advertisement!</p>
+                            <p className="fw-normal fs-5 fst-italic m-md-0 mb-4">This Website is exactly an Advertisement!</p>
 
-                            <p className="m-sm-0 mb-4 fs-5">
+                            <p className="m-md-0 mb-4 fs-5">
                                 You know, Ads are usually easy to 'Skip' but if you watch them all, maybe you will find a satisfactory product. Hope you will find what you are looking for here.
                             </p>
 
-                            <p className="m-sm-0 mb-4 fs-5">Have a nice day!</p>
+                            <p className="m-md-0 mb-4 fs-5">Have a nice day!</p>
                         </div>
                     </div>
                 </Col>
