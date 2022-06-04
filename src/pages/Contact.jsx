@@ -4,6 +4,7 @@ import avata from '../assets/img/avata.jpg'
 import CV from '../assets/file/CV_ANH-DO_WEB DEVELOPER.pdf'
 import { Notify } from '../util'
 import { useState } from 'react'
+import { MessengerChat } from "react-messenger-chat-plugin"
 
 const Contact = (props) => {
 
@@ -148,6 +149,15 @@ const Contact = (props) => {
                 </Col>
             </Row>
         </Container>
+
+        <MessengerChat
+            pageId="104997555249635"
+            language="en_US"
+            themeColor={"#d30000"}
+            loggedInGreeting="Hello"
+            loggedOutGreeting="Hi"
+            greetingDialogDisplay={"show"}
+        />
     </div>
 }
 
