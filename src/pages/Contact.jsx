@@ -149,15 +149,6 @@ const Contact = (props) => {
                 </Col>
             </Row>
         </Container>
-
-        <MessengerChat
-            pageId="104997555249635"
-            language="en_US"
-            themeColor={"#d30000"}
-            loggedInGreeting="Hello"
-            loggedOutGreeting="Hi"
-            greetingDialogDisplay={"show"}
-        />
     </div>
 }
 
