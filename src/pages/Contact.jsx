@@ -149,6 +149,8 @@ const Contact = (props) => {
                 </Col>
             </Row>
         </Container>
+
+        <MessengerChat pageId="104997555249635" />
     </div>
 }
 
