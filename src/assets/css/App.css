@@ -38,14 +38,14 @@ a {
     text-decoration: none;
 }
 
-.zoom-in {
+/* .zoom-in {
     transition: all .3s linear;
 }
 
 .zoom-in:hover {
     box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
     transform: scale(1.005);
-}
+} */
 
 .active-success {
     color: #65c178 !important;
