@@ -29,9 +29,14 @@ const Project = (props) => {
                                     : language === 'JavaScript' ? 'fa-brands fa-js text-warning'
                                     : language === 'ReactJS' ? 'fa-brands fa-react text-info'
                                     : language === 'Java' ? 'fa-brands fa-java text-danger'
-                                    : language === 'Spring' ? 'fa-brands fa-java text-danger'
-                                    : language === 'JavaFX' ? 'fa-brands fa-java text-danger'
+                                    : language === 'JavaFX' ? 'fa-solid fa-screwdriver-wrench text-danger'
                                     : language === 'Bootstrap' ? 'fa-brands fa-bootstrap text-primary'
+                                    : language === 'MySQL' ? 'fa-solid fa-database text-info'
+                                    : language === 'Firebase' ? 'fa-solid fa-server text-warning'
+                                    : language === 'Heroku' ? 'fa-solid fa-rocket text-danger'
+                                    : language === 'Vercel' ? 'fa-solid fa-square-caret-up text-black'
+                                    : language === 'Jquery' ? 'fa-brands fa-shopware text-primary'
+                                    : language === 'Spring' ? 'fa-solid fa-leaf text-success'
                                     : ''
                                 }`}></i> {language}
                             </span></h4>)}
