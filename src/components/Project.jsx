@@ -29,6 +29,9 @@ const Project = (props) => {
                                     : language === 'JavaScript' ? 'fa-brands fa-js text-warning'
                                     : language === 'ReactJS' ? 'fa-brands fa-react text-info'
                                     : language === 'Java' ? 'fa-brands fa-java text-danger'
+                                    : language === 'Spring' ? 'fa-brands fa-java text-danger'
+                                    : language === 'JavaFX' ? 'fa-brands fa-java text-danger'
+                                    : language === 'Bootstrap' ? 'fa-brands fa-bootstrap text-primary'
                                     : ''
                                 }`}></i> {language}
                             </span></h4>)}
@@ -42,7 +45,7 @@ const Project = (props) => {
                                 </a>
                             </div>
                             <div className='button button-light py-1 px-3 px-sm-4 rounded-pill border border-dark'>
-                                <a target="_blank" rel="noreferrer" href={project.viewDemo} className="text-reset text-decoration-none">
+                                <a target="_blank" rel="noreferrer" href={project?.viewDemo ? project?.viewDemo : project.sourceCode} className="text-reset text-decoration-none">
                                     <span className="d-sm-block d-none">View demo</span>
                                     <span className="d-sm-none d-block">Demo</span>
                                 </a>
@@ -53,7 +56,7 @@ const Project = (props) => {
 
                 <div className="col-md-6 mt-md-0 mt-3">
                     <div className="zoom-in rounded-3 overflow-hidden w-100 h-100" style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", minHeight: "300px"}}>
-                        <iframe src={project.viewDemo} name={project.title} title={project.title} className="w-100 h-100"/>
+                        <iframe src={project?.jframeSrc ? project?.jframeSrc : project?.viewDemo} name={project.title} title={project.title} className="w-100 h-100"/>
                     </div>
                 </div>
             </div>
