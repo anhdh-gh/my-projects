@@ -4,7 +4,7 @@ import { useState } from "react"
 const data = [
     {
         id: 1,
-        title: 'Tư vấn và chẩn đoán bệnh xương khớp',
+        title: 'Diagnosis and consultation of musculoskeletal diseases',
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
             `This is a website for diagnosis and treatment of diseases related to bones and joints. The two main algorithms used in the project are Case-based reasoning (CBR) and Rule-based reasoning (RBR).`
