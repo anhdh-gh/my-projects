@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 import { Icon } from '../components'
 import { useLocation, useNavigate } from "react-router"
 import { ROUTE_PATH } from '../constants'
-import CV from '../assets/file/CV_ANH-DO_WEB DEVELOPER.pdf'
+import CV from '../assets/file/CV_ĐỖ HÙNG ANH_WEB DEVELOPER.pdf'
 
 const Header = (props) => {
     const { pathname } = useLocation()

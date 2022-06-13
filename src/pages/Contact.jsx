@@ -1,7 +1,7 @@
 import emailjs from 'emailjs-com'
 import { Container, Row, Col } from 'react-bootstrap'
 import avata from '../assets/img/avata.jpg'
-import CV from '../assets/file/CV_ANH-DO_WEB DEVELOPER.pdf'
+import CV from '../assets/file/CV_ĐỖ HÙNG ANH_WEB DEVELOPER.pdf'
 import { Notify } from '../util'
 import { useState } from 'react'
 import { MessengerChat } from "react-messenger-chat-plugin"
