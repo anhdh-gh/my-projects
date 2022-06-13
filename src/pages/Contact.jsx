@@ -1,7 +1,7 @@
 import emailjs from 'emailjs-com'
 import { Container, Row, Col } from 'react-bootstrap'
 import avata from '../assets/img/avata.jpg'
-import CV from '../assets/file/CV_ĐỖ HÙNG ANH_WEB DEVELOPER.pdf'
+import CV from '../assets/file/CV_ĐỖ-HÙNG-ANH_WEB-DEVELOPER.pdf'
 import { Notify } from '../util'
 import { useState } from 'react'
 import { MessengerChat } from "react-messenger-chat-plugin"
@@ -105,7 +105,7 @@ const Contact = (props) => {
                                 </div>
 
                                 <div className='d-flex justify-content-between'>
-                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ĐỖ HÙNG ANH_WEB DEVELOPER.pdf' target="_blank" rel="noreferrer">CV</a>
+                                    <a style={{ cursor: "pointer" }} className='button button-light py-1 px-3 px-sm-4 rounded-3 border border-dark' href={CV} download='CV_ĐỖ-HÙNG-ANH_WEB-DEVELOPER.pdf' target="_blank" rel="noreferrer">CV</a>
                                     <button disabled={sending} type='submit' style={{ cursor: "pointer" }} className='button button-dark py-1 px-3 px-sm-4 rounded-3 border border-dark'>SEND</button>
                                 </div>
                             </form>
