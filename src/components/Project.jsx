@@ -37,6 +37,10 @@ const Project = (props) => {
                                     : language === 'Vercel' ? 'fa-solid fa-square-caret-up text-black'
                                     : language === 'Jquery' ? 'fa-brands fa-shopware text-primary'
                                     : language === 'Spring' ? 'fa-solid fa-leaf text-success'
+                                    : language === 'JSP' ? 'fa-brands fa-java text-danger'
+                                    : language === 'Servlet' ? 'fa-brands fa-java text-danger'
+                                    : language === 'Tomcat' ? 'fa-solid fa-cat text-warning'
+                                    : language === 'SOAP' ? 'fa-solid fa-file-code'
                                     : ''
                                 }`}></i> {language}
                             </span></h4>)}

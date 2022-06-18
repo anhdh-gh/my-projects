@@ -15,6 +15,17 @@ const data = [
     },
     {
         id: 2,
+        title: 'Algorithms in subject "Distributed Systems"',
+        subTitle: 'Ends at Jun 18, 2022',
+        descriptions: [
+            `This is a website for learning, practicing and testing the algorithms of the subject "Distributed Systems". Website uses technologies Java Servlet, JSP, JSTL, SOAP, ...`
+        ],
+        languages: ['Servlet', 'JSP', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Heroku', 'Jquery', 'Tomcat', 'SOAP'],
+        sourceCode: "https://github.com/anhdh-gh/DistributedSystems",
+        viewDemo: "https://distributed-systems-ptit.herokuapp.com",
+    },
+    {
+        id: 3,
         title: 'Learn EV',
         subTitle: 'Ends at Feb 23, 2022',
         descriptions: [
@@ -25,7 +36,7 @@ const data = [
         viewDemo: "https://learn-e-v.vercel.app",
     },
     {
-        id: 3,
+        id: 4,
         title: 'My scoreboard',
         subTitle: 'Ends at Oct 17, 2021',
         descriptions: [
@@ -36,7 +47,7 @@ const data = [
         viewDemo: "https://my-scoreboard.vercel.app",
     },
     {
-        id: 4,
+        id: 5,
         title: 'Chat and game online',
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
@@ -48,7 +59,7 @@ const data = [
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173025699-aef2c279-f511-4624-ab45-daf080fc67ec.png"
     },
     {
-        id: 5,
+        id: 6,
         title: 'My projects',
         subTitle: 'Ends at Jun 4, 2022',
         descriptions: [
@@ -59,7 +70,7 @@ const data = [
         viewDemo: "https://my-projects-anhdh.vercel.app",
     },
     {
-        id: 6,
+        id: 7,
         title: 'Calculator online',
         subTitle: 'Ends at Oct 17, 2021',
         descriptions: [
@@ -67,10 +78,10 @@ const data = [
         ],
         languages: ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Vercel', 'Heroku'],
         sourceCode: "https://github.com/anhdh-gh/calculator",
-        viewDemo: "https://calculator-gamma-livid.vercel.app",
+        viewDemo: "https://calculator-anhdh.vercel.app",
     },
     {
-        id: 7,
+        id: 8,
         title: "The band",
         subTitle: 'Ends at Oct 17, 2021',
         descriptions: [
@@ -81,7 +92,7 @@ const data = [
         viewDemo: "https://the-band-anhdh.vercel.app",
     },
     {
-        id: 8,
+        id: 9,
         title: "Bank employee management",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
@@ -92,7 +103,7 @@ const data = [
         jframeSrc: "https://images.moneycontrol.com/static-mcnews/2021/06/Bank-representational-shutterstock.jpg?impolicy=website&width=770&height=431",
     },
     {
-        id: 9,
+        id: 10,
         title: "Clocks and alarms",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
@@ -104,7 +115,7 @@ const data = [
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173048493-0619a567-ebca-4ff5-9385-54f7fd3657aa.png",
     },
     {
-        id: 10,
+        id: 11,
         title: "Change jpg image properties for seo shopee",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
@@ -116,7 +127,7 @@ const data = [
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173051517-fb73d846-d44e-4c91-87c6-8aa2fceb664e.png",
     },
     {
-        id: 11,
+        id: 12,
         title: "Basic Entity Generation Algorithms",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
