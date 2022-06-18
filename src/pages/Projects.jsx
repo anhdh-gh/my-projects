@@ -9,7 +9,7 @@ const data = [
         descriptions: [
             `This is a website for diagnosis and treatment of diseases related to bones and joints. The two main algorithms used in the project are Case-based reasoning (CBR) and Rule-based reasoning (RBR).`
         ],
-        languages: ['Spring', 'MySQL', 'Firebase', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Heroku', 'Jquery'],
+        languages: ['Spring Data JPA', 'Spring Boot', 'JSP', 'Spring', 'MySQL', 'Firebase', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Heroku', 'Jquery'],
         sourceCode: "https://github.com/anhdh-gh/Diagnosis-and-consultation-of-musculoskeletal-diseases",
         viewDemo: "https://musculoskeletal-diseases.herokuapp.com",
     },
@@ -53,7 +53,7 @@ const data = [
         descriptions: [
             `"Chat and game online" is a desktop application for chatting and playing games together. The application uses Java technologies such as Java Swing, Java Socket, Java Multi Thread, Spring Data JPA.`
         ],
-        languages: ['Spring', 'Java', 'MySQL'],
+        languages: ['Java Swing', 'Spring', 'Java', 'MySQL', 'Spring Boot', 'Spring Data JPA'],
         sourceCode: "https://github.com/anhdh-gh/Chat-and-game-online",
         viewDemo: 'https://github.com/anhdh-gh/Chat-and-game-online/blob/main/README.md#h%C3%ACnh-%E1%BA%A3nh-preview',
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173025699-aef2c279-f511-4624-ab45-daf080fc67ec.png"
@@ -98,7 +98,7 @@ const data = [
         descriptions: [
             `"Bank employee management" is a bank employee management system. The system is developed by technologies such as Spring boot, Spring Data JPA, MySQL, HTML, CSS, JS, Jquery, Bootstrap 5.`
         ],
-        languages: ['Spring', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Jquery', 'Bootstrap'],
+        languages: ['Spring Boot', 'Spring', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Jquery', 'Bootstrap', 'Spring Data JPA'],
         sourceCode: "https://github.com/anhdh-gh/Bank-employee-management-system",
         jframeSrc: "https://images.moneycontrol.com/static-mcnews/2021/06/Bank-representational-shutterstock.jpg?impolicy=website&width=770&height=431",
     },
@@ -109,7 +109,7 @@ const data = [
         descriptions: [
             `"Clocks and alarms" is a desktop application that has the function of viewing the time of some countries in the world and setting alarms. The application is developed based on JavaFX.`
         ],
-        languages: ['JavaFX'],
+        languages: ['JavaFX', 'Java'],
         sourceCode: "https://github.com/anhdh-gh/Clocks-and-alarms",
         viewDemo: 'https://github.com/anhdh-gh/Clocks-and-alarms/blob/master/README.md#h%C3%ACnh-%E1%BA%A3nh-preview',
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173048493-0619a567-ebca-4ff5-9385-54f7fd3657aa.png",
@@ -121,7 +121,7 @@ const data = [
         descriptions: [
             `"Change jpg image properties for seo shopee" is a desktop application used to adjust the properties of images so that shopee seo standards. Technologies used include Java Swing, Java Multi Thread, FIle IO.`
         ],
-        languages: ['Java'],
+        languages: ['Java Swing', 'Java'],
         sourceCode: "https://github.com/anhdh-gh/Change_jpg_image_properties_for_seo_shopee",
         viewDemo: 'https://github.com/anhdh-gh/Change_jpg_image_properties_for_seo_shopee/blob/main/README.md#h%C3%ACnh-%E1%BA%A3nh-preview',
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173051517-fb73d846-d44e-4c91-87c6-8aa2fceb664e.png",
@@ -133,7 +133,7 @@ const data = [
         descriptions: [
             `"Basic Entity Generation Algorithms" is a desktop application that illustrates basic entity generation algorithms. The application is written in Java 2D, Java Swing.`
         ],
-        languages: ['Java'],
+        languages: ['Java Swing', 'Java'],
         sourceCode: "https://github.com/anhdh-gh/Basic-Entity-Generation-Algorithms",
         viewDemo: 'https://github.com/anhdh-gh/Basic-Entity-Generation-Algorithms/blob/main/readme.md#h%C3%ACnh-%E1%BA%A3nh-preview',
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173058965-422d0838-4283-4fbb-870f-12b1624d039e.png",

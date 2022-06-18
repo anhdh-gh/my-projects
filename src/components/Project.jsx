@@ -22,7 +22,7 @@ const Project = (props) => {
                         </div>
 
                         <div className='d-flex flex-wrap ps-4 justify-content-around align-items-center mt-3'>
-                            {project?.languages.map((language, index) => <h4 key={`${project.id}-${index}`}><span className={`badge bg-light text-dark`}>
+                            {project?.languages.sort((language1, language2) => language1.length - language2.length).map((language, index) => <h4 key={`${project.id}-${index}`}><span className={`badge bg-light text-dark`}>
                                 <i className={`${
                                     language === 'HTML' ? 'fa-brands fa-html5 text-warning'
                                     : language === 'CSS' ? 'fa-brands fa-css3-alt text-primary'
@@ -37,10 +37,13 @@ const Project = (props) => {
                                     : language === 'Vercel' ? 'fa-solid fa-square-caret-up text-black'
                                     : language === 'Jquery' ? 'fa-brands fa-shopware text-primary'
                                     : language === 'Spring' ? 'fa-solid fa-leaf text-success'
+                                    : language === 'Spring Boot' ? 'fa-solid fa-leaf text-success'
                                     : language === 'JSP' ? 'fa-brands fa-java text-danger'
                                     : language === 'Servlet' ? 'fa-brands fa-java text-danger'
                                     : language === 'Tomcat' ? 'fa-solid fa-cat text-warning'
                                     : language === 'SOAP' ? 'fa-solid fa-file-code'
+                                    : language === 'Java Swing' ? 'fa-brands fa-java text-danger'
+                                    : language === 'Spring Data JPA' ? 'fa-solid fa-database text-success'
                                     : ''
                                 }`}></i> {language}
                             </span></h4>)}
