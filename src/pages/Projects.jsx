@@ -9,7 +9,7 @@ const data = [
         descriptions: [
             `This is a website for diagnosis and treatment of diseases related to bones and joints. The two main algorithms used in the project are Case-based reasoning (CBR) and Rule-based reasoning (RBR).`
         ],
-        languages: ['Spring Data JPA', 'Spring Boot', 'JSP', 'Spring', 'MySQL', 'Firebase', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Heroku', 'Jquery'],
+        languages: ['Spring Data JPA', 'Spring Boot', 'JSP', 'Spring', 'MySQL', 'Firebase', 'Bootstrap', 'HTML', 'CSS', 'JavaScript', 'Heroku', 'Jquery', 'Visual Paradigm'],
         sourceCode: "https://github.com/anhdh-gh/Diagnosis-and-consultation-of-musculoskeletal-diseases",
         viewDemo: "https://musculoskeletal-diseases.herokuapp.com",
     },
@@ -53,7 +53,7 @@ const data = [
         descriptions: [
             `"Chat and game online" is a desktop application for chatting and playing games together. The application uses Java technologies such as Java Swing, Java Socket, Java Multi Thread, Spring Data JPA.`
         ],
-        languages: ['Java Swing', 'Spring', 'Java', 'MySQL', 'Spring Boot', 'Spring Data JPA'],
+        languages: ['Java Swing', 'Spring', 'Java', 'MySQL', 'Spring Boot', 'Spring Data JPA', 'Visual Paradigm'],
         sourceCode: "https://github.com/anhdh-gh/Chat-and-game-online",
         viewDemo: 'https://github.com/anhdh-gh/Chat-and-game-online/blob/main/README.md#h%C3%ACnh-%E1%BA%A3nh-preview',
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173025699-aef2c279-f511-4624-ab45-daf080fc67ec.png"
@@ -98,12 +98,24 @@ const data = [
         descriptions: [
             `"Bank employee management" is a bank employee management system. The system is developed by technologies such as Spring boot, Spring Data JPA, MySQL, HTML, CSS, JS, Jquery, Bootstrap 5.`
         ],
-        languages: ['Spring Boot', 'Spring', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Jquery', 'Bootstrap', 'Spring Data JPA'],
+        languages: ['Spring Boot', 'Spring', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Jquery', 'Bootstrap', 'Spring Data JPA', 'Visual Paradigm'],
         sourceCode: "https://github.com/anhdh-gh/Bank-employee-management-system",
         jframeSrc: "https://images.moneycontrol.com/static-mcnews/2021/06/Bank-representational-shutterstock.jpg?impolicy=website&width=770&height=431",
     },
     {
         id: 10,
+        title: "Sound recognition of solo duet and ensemble instruments",
+        subTitle: 'Ends at Jun 24, 2022',
+        descriptions: [
+            `"Sound recognition of solo duet and ensemble instruments" is a website that recognizes the sounds of solo, duet and ensemble musical instruments. The system uses feature extraction techniques and calculates the Euclidean distance.`
+        ],
+        languages: ['Python', 'Django', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Jquery', 'Bootstrap', 'Visual Paradigm'],
+        sourceCode: "https://github.com/anhdh-gh/Sound_recognition_of_solo_duet_and_ensemble_instruments",
+        viewDemo: 'https://github.com/anhdh-gh/Sound_recognition_of_solo_duet_and_ensemble_instruments/blob/main/README.md#4-m%E1%BB%99i-s%E1%BB%91-h%C3%ACnh-%E1%BA%A3nh-minh-h%E1%BB%8Da',
+        jframeSrc: "https://user-images.githubusercontent.com/79781308/175529080-81b4bcb2-ec52-4923-a382-a982dacf0520.png",
+    },
+    {
+        id: 11,
         title: "Clocks and alarms",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
@@ -115,7 +127,7 @@ const data = [
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173048493-0619a567-ebca-4ff5-9385-54f7fd3657aa.png",
     },
     {
-        id: 11,
+        id: 12,
         title: "Change jpg image properties for seo shopee",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [
@@ -127,7 +139,7 @@ const data = [
         jframeSrc: "https://user-images.githubusercontent.com/79781308/173051517-fb73d846-d44e-4c91-87c6-8aa2fceb664e.png",
     },
     {
-        id: 12,
+        id: 13,
         title: "Basic Entity Generation Algorithms",
         subTitle: 'Ends at Jun 10, 2022',
         descriptions: [

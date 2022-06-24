@@ -44,6 +44,9 @@ const Project = (props) => {
                                     : language === 'SOAP' ? 'fa-solid fa-file-code'
                                     : language === 'Java Swing' ? 'fa-brands fa-java text-danger'
                                     : language === 'Spring Data JPA' ? 'fa-solid fa-database text-success'
+                                    : language === 'Visual Paradigm' ? 'fa-solid fa-layer-group text-danger'
+                                    : language === 'Python' ? 'fa-brands fa-python text-info'
+                                    : language === 'Django' ? 'fa-brands fa-python text-success'
                                     : ''
                                 }`}></i> {language}
                             </span></h4>)}
