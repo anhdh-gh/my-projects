@@ -88,8 +88,8 @@ const data = [
             '"The band" is my first website. I made this website while taking the course "HTML, CSS from Zero to Hero" at <a target="_blank" rel="noreferrer" href="https://fullstack.edu.vn">F8</a>. Although this project is simple, it helps me summarize the results of the self-study process.',
         ],
         languages: ['HTML', 'CSS', 'JavaScript'],
-        sourceCode: "https://github.com/anhdh-gh/The-band",
-        viewDemo: "https://the-band-anhdh.vercel.app",
+        sourceCode: "https://github.com/anhdh-gh/website-templates/tree/main/introduction/the-band",
+        viewDemo: "https://website-templates-anhdh.vercel.app/introduction/the-band/index.html",
     },
     {
         id: 9,
